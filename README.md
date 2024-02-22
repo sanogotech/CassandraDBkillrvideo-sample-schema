@@ -9,6 +9,14 @@ cqlsh -f videodb-schema.cql
 
 cqlsh -f videodb-inserts.cql
 
+## Prerequisites
+
+* Install the latest version of Java 8 or Java 11, either the Oracle Java Standard Edition 8 / Oracle Java Standard Edition 11 (Long Term Support) or OpenJDK 8 / OpenJDK 11. To verify that you have the correct version of java installed, type java -version.
+
+NOTE: Experimental support for Java 11 was added in Cassandra 4.0 (CASSANDRA-9608). Full support is effective Cassandra 4.0.2 version (CASSANDRA-16894) For more information, see NEWS.txt.
+
+* For using cqlsh, the latest version of Python 3.6+ or Python 2.7 (support deprecated). To verify that you have the correct version of Python installed, type python --version.
+
 Application
 ===========
 
